@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+ul,li{
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+
+button{
+    height: 2.5em;
+    width: 5em;
+    border: solid grey 2px;
+    background-color: lightgray;
+    border-radius: 1em;
+}
+
+input{
+    height: 2.5em;
+    width: 25em;
+    border: solid grey 2px;
+    background-color: lightgray;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+ul{
+    justify-content: center;
+}
+
+li{
+    border: solid grey 2px;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    margin: 3rem;
+    padding: 10px;
+    max-width: 60vw;
+}
+
+.inputBar{
+    z-index: 1;
+    position: fixed;
+    top: 90%;
+    border: solid black 2px;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: white;
+}
